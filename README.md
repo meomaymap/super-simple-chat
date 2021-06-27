@@ -5,7 +5,7 @@ This is a simple chat room demo in JavaScript to be converted into a native app 
 
 ![image](http://www.pubnub.com/blog/wp-content/uploads/2014/10/phonegap.jpg)
 
-[Live Demo](http://pubnub.github.io/super-simple-chat/index.html)
+[Live Demo](http://meomaymap.github.io/super-simple-chat/index.html)
 
 ## PhoneGap Tutorials
 
