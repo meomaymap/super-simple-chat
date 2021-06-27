@@ -1,17 +1,17 @@
 (function() {
 
-    var output = meomaymap.$('output'), 
-        input = meomaymap.$('input'), 
-        button = meomaymap.$('button'),
-        avatar = meomaymap.$('avatar'),
-        presence = meomaymap.$('presence');
+    var output = PUBNUB.$('output'), 
+        input = PUBNUB.$('input'), 
+        button = PUBNUB.$('button'),
+        avatar = PUBNUB.$('avatar'),
+        presence = PUBNUB.$('presence');
 
     var channel = 'mchat';
     
     // Assign a random avatar in random color
     avatar.className = 'face-' + ((Math.random() * 13 + 1) >>> 0) + ' color-' + ((Math.random() * 10 + 1) >>> 0);
 
-    var p = meomaymap.init({
+    var p = PUBNUB.init({
         subscribe_key: 'sub-c-f762fb78-2724-11e4-a4df-02ee2ddab7fe',
         publish_key:   'pub-c-156a6d5f-22bd-4a13-848d-b5b4d4b36695'
     });
